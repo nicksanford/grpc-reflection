@@ -45,7 +45,7 @@ defmodule GrpcReflection.MixProject do
       {:dialyxir, "~> 1.4", only: [:dev, :test], runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:google_protos, "~> 0.4.0"},
-      {:grpc, "~> 0.7"},
+      {:grpc, git: "git@github.com:nicksanford/grpc.git", tag: "master"},
       {:protobuf, "~> 0.11"}
     ]
   end
